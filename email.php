@@ -18,11 +18,11 @@ $pozymiai = $_REQUEST['pozymiai'];
 
 
 $msg =
-    "vardas: " . $vardas . "<br>" .
-    "El. paštas: " . $pastas . "<br>" .
-    "Tel. numeris: " . $numeris . "<br>" .
-    "Veislė: " . $veisle . ", Svoris: " . $svoris . "<br>" .
-    "Amžius: " . $amzius . ", Spalva: " . $spalva . "<br>" .
+    "vardas: " . $vardas . "\r\n" .
+    "El. paštas: " . $pastas . "\r\n" .
+    "Tel. numeris: " . $numeris . "\r\n" .
+    "Veislė: " . $veisle . ", Svoris: " . $svoris . "\r\n" .
+    "Amžius: " . $amzius . ", Spalva: " . $spalva . "\r\n" .
     "Požymiai: " . $pozymiai;
 
 if (!empty($pastas)) {
