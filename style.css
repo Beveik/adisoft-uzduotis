@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.html {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.body {
+    max-width: 1920px;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+container {
+    position: absolute;
+    width: 1920px;
+    background-color: #FFFFFF;
+}
+
+.thankyou {
+width: 100%;
+padding-left: 176px;
+
+}
+
+.one {
+    width: 1568px;
+    height: 768px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.one-left {
+    width: 58%;
+    padding-top: 232px;
+    color: #3E3E3E;
+    height: 400px;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4D6BFC;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: left;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+p.bold {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+p.regular {
+    font-weight: 500;
+    text-align: justify;
+}
+
+.one-right {
+    float: right;
+}
+
+.one-right img {
+    width: 544px;
+    height: 544px;
+    padding-top: 112px;
+}
+
+.two {
+    height: 412px;
+    background-color: #4D6BFC;
+    width: 100%;
+    float: left;
+}
+
+.two-left {
+    padding-left: 176px;
+    width: 35%;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin: 0;
+}
+
+.two h2 {
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    padding-top: 120px;
+}
+
+.two p.regular {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.two-right {
+    padding-top: 120px;
+    padding-right: 176px;
+    float: right;
+}
+
+.col-4 {
+    float: left;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 232px;
+}
+
+.icon {
+    width: 144px;
+    position: relative;
+    align-items: center;
+    padding-left: 44px;
+}
+
+.light {
+    line-height: 20px;
+    padding-top: 16px;
+    text-align: center;
+    width: 220px;
+    font-size: 16px;
+}
+
+.three {
+    height: 726px;
+    background-color: #FFFFFF;
+    width: 100%;
+    float: left;
+}
+
+.three h2 {
+    color: #3E3E3E;
+    padding-bottom: 32px;
+    padding-top: 118px;
+}
+
+.three-left {
+    padding-left: 176px;
+    width: 38%;
+    display: inline-block;
+}
+
+.three-right {
+    padding-right: 176px;
+    width: 38%;
+    float: right;
+}
+
+.three-left p.regular {
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+.three-right p.regular,
+.three-right p.bold {
+    padding-bottom: 16px;
+    margin: 0;
+    text-align: justify;
+}
+
+.four {
+    background-color: #4D6BFC;
+    width: 100%;
+}
+
+.four p {
+    color: #4D6BFC;
+}
+
+.five {
+    height: 830px;
+}
+
+.anketa-text h1 {
+    padding-bottom: 16px;
+}
+
+.anketa-left {
+    padding-left: 176px;
+    padding-top: 240px;
+    width: 38%;
+    display: inline-block;
+}
+
+.anketa-right {
+    width: 706px;
+    float: right;
+    padding-right: 176px;
+    padding-top: 64px;
+}
+
+.anketa-forma {
+    padding-left: 176px;
+    padding-right: 160px;
+    padding-top: 48px;
+}
+
+.input {
+    width: 365px;
+    height: 40px;
+    border-color: #4D6BFC;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+
+.salygos-box {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.salygos-box p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.checkbox {
+    float: left;
+    accent-color: #4D6BFC;
+}
+
+.salygos p {
+    padding-left: 8px;
+    width: 794px;
+    color: #3E3E3E;
+    float: right;
+}
+
+.pozymiai-text {
+    width: 376px;
+    color: #4D6BFC;
+    float: right;
+    padding-right: 40px;
+}
+
+.skambutis-box {
+    padding-top: 48px;
+    /* padding-right:40px; */
+}
+
+.skambutis {
+    width: 744px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 31px;
+    margin: 0;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #4D6BFC;
+    width: 768px;
+    height: 54px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    float: right;
+}
+
+@media screen and (max-width: 1312px) {
+    container {
+        width: 1312px;
+    }
+
+    .one {
+        width: 1056px;
+        height: 624px;
+    }
+
+    .one-left {
+        width: 50%;
+        padding-top: 116px;
+        height: 400px;
+    }
+
+    h1 {
+
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    p.bold {
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .one-right img {
+        width: 432px;
+        height: 432px;
+        padding-top: 96px;
+    }
+
+    .two {
+        height: 372px;
+    }
+
+    .two-left {
+        padding-left: 128px;
+        width: 35%;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .two h2 {
+        padding-bottom: 24px;
+        padding-top: 120px;
+    }
+
+    .two p.regular {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .two-right {
+        padding-top: 104px;
+        padding-right: 128px;
+    }
+
+    .col-4 {
+        font-size: 14px;
+        width: 128px;
+        padding-left: 32px;
+    }
+
+    .icon {
+        width: 96px;
+        padding-left: 12px;
+    }
+
+    .light {
+        line-height: 18px;
+        width: 128px;
+        font-size: 14px;
+    }
+
+    .three {
+        height: 664px;
+        background-color: #FFFFFF;
+    }
+
+    .three h2 {
+        padding-top: 96px;
+    }
+
+    .three-left {
+        padding-left: 128px;
+    }
+
+    .three-right {
+        padding-right: 128px;
+    }
+
+
+    .five {
+        height: 676px;
+    }
+
+    .anketa-left {
+        padding-left: 128px;
+        padding-top: 144px;
+    }
+
+    .anketa-right {
+        width: 450px;
+        padding-right: 200px;
+        padding-top: 0px;
+    }
+
+    .anketa-forma {
+        padding-left: 128px;
+        padding-right: 112px;
+    }
+
+    .input {
+        width: 245px;
+        height: 34px;
+        margin-right: 3px;
+    }
+
+
+    .salygos-box p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .salygos p {
+        width: 680px;
+    }
+
+    .pozymiai-text {
+        width: 256px;
+    }
+
+    .skambutis-box {
+        padding-top: 32px;
+    }
+
+    .skambutis {
+        width: 502px;
+        font-size: 21px;
+        line-height: 22px;
+    }
+
+    .btn {
+        width: 522px;
+        height: 54px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    container {
+        width: 834px;
+    }
+
+    .one {
+        width: 648px;
+        height: 460px;
+    }
+
+    .one-left {
+        width: 400px;
+        padding-top: 88px;
+        height: 400px;
+    }
+
+    h1 {
+
+        font-size: 38px;
+        line-height: 44px;
+    }
+
+    p {
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    p.bold {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .one-right img {
+        width: 200px;
+        height: 200px;
+        padding-top: 130px;
+    }
+
+    .two {
+        height: 686px;
+    }
+
+    .two-left {
+        padding-left: 96px;
+        width: 400px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .two h2 {
+        padding-bottom: 24px;
+        padding-top: 112px;
+    }
+
+    .two p.regular {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .two-right {
+        padding-top: 64px;
+        padding-right: 96px;
+    }
+
+    .col-4 {
+        font-size: 12px;
+        width: 176px;
+        padding-left: 40px;
+    }
+
+    .icon {
+        width: 152px;
+        padding-left: 12px;
+
+    }
+
+    .light {
+        line-height: 18px;
+        width: 176px;
+        font-size: 14px;
+    }
+
+    .three {
+        height: 844px;
+    }
+
+    .three {
+        height: 844px;
+    }
+
+    .three h2 {
+        padding-top: 0px;
+    }
+
+    .three-left h2 {
+        padding-top: 88px;
+        padding-bottom: 0px;
+    }
+
+    .three-right {
+        padding-top: 0px;
+
+    }
+
+    .three-right,
+    .three-left {
+        padding-right: 96px;
+        padding-left: 98px;
+        padding-top: 0px;
+        width: 640px;
+        float: left;
+    }
+
+    .three-right p.regular,
+    .three-right p.bold {
+        padding-bottom: 16px;
+    }
+
+    .four p {
+        font-size: 8px;
+    }
+
+    .five {
+        height: 834px;
+    }
+
+    .anketa-left {
+        padding-left: 96px;
+        padding-top: 108px;
+        width: 290px;
+    }
+
+    .anketa-left h2 {
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+
+    .anketa-right {
+        width: 350px;
+        padding-right: 65px;
+        padding-top: 80px;
+    }
+
+    .anketa-right img {
+        width: 350px;
+    }
+
+    .anketa-forma {
+        padding-left: 98px;
+        padding-right: 65px;
+    }
+
+    .input {
+        width: 315px;
+        height: 34px;
+        margin-right: 3px;
+    }
+
+    .vardas,
+    .pozymiai {
+        width: 648px;
+    }
+
+    .numeris,
+    .svoris,
+    .spalva {
+        float: right;
+        margin: 0;
+    }
+
+    .salygos-box p {
+        line-height: 15px;
+    }
+
+    .salygos {
+        width: 416px;
+
+    }
+
+    .pozymiai-text {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    .skambutis-box {
+        padding-top: 32px;
+
+    }
+
+    .skambutis {
+        width: 100%;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+
+    .btn {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    container {
+        width: 320px;
+    }
+
+    .one {
+        width: 288px;
+        height: 580px;
+    }
+
+    .one-left {
+        width: 100%;
+        padding-top: 24px;
+        text-align: center;
+        height: 268px;
+
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    p {
+        line-height: 16px;
+        font-size: 12px;
+        width: 288px;
+
+    }
+
+    p.bold {
+        text-align: center;
+        line-height: 18px;
+        font-size: 14px;
+        margin: 0;
+        padding-top: 24px;
+    }
+
+    .one-right img {
+        width: 200px;
+        height: 200px;
+        padding-top: 40px;
+        padding-right: 45px;
+        padding-left: 60px;
+    }
+
+    .two {
+        height: 957px;
+    }
+
+    .two-left {
+        padding-left: 0px;
+        width: 288px;
+        text-align: center;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .two h2 {
+        padding-top: 40px;
+    }
+
+    .two p.regular {
+        padding-left: 8px;
+    }
+
+    .two-right {
+        padding-top: 64px;
+        padding-right: 96px;
+        float: left;
+        padding-top: 32px;
+    }
+
+    .col-4 {
+        font-size: 12px;
+        width: 176px;
+        padding-left: 54px;
+        padding-bottom: 32px;
+    }
+
+    .icon {
+        padding-left: 12px;
+        padding-bottom: 0px;
+    }
+
+    .light {
+        line-height: 16px;
+        width: 176px;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .three {
+        height: 1020px;
+    }
+
+
+    .three-left h2,
+    .three-right h2 {
+        padding-bottom: 24px;
+        text-align: center;
+        width: 288px;
+    }
+
+    .three-left h2 {
+        padding-top: 40px;
+    }
+
+    .three-right {
+        padding-top: 0px;
+    }
+
+    .three-right,
+    .three-left {
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-top: 0px;
+    }
+
+    .three-right p.regular,
+    .three-right p.bold {
+        padding-bottom: 16px;
+        padding-top: 0px;
+    }
+
+    .four p {
+        font-size: 8px;
+    }
+
+    .five {
+        height: 1075px;
+    }
+
+    .anketa-left {
+        padding-left: 16px;
+        padding-top: 0px;
+        width: 288px;
+    }
+
+    .anketa-left h1 {
+        padding-top: 24px;
+        text-align: left;
+
+    }
+
+    .anketa-left h2 {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    .anketa-right {
+        padding-top: 30px;
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 288px;
+    }
+
+    .anketa-right img {
+        width: 288px;
+    }
+
+    .anketa-forma {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .input {
+        width: 275px;
+        float: left;
+    }
+
+    .salygos-box p {
+        line-height: 14px;
+    }
+
+    .salygos {
+        width: 264px;
+        padding-left: 30px;
+    }
+
+
+    .skambutis {
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .btn {
+        width: 275px;
+    }
+}
